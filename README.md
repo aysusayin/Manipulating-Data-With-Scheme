@@ -8,7 +8,8 @@ You will extract different sorts of information from a database of locations and
 the database is encoded as a list of entries, with one entry for each location and again one entry
 for each traveler. Each entry will be a list in the following form:
 
-(<location> <accommodation-cost> (<neighbor-location1> ... <neighbor-locationN>) (<activity1> ... <activityN>))
+(<location> <accommodation-cost> (<neighbor-location1> ... <neighbor-locationN>) (<activity1>
+... <activityN>))
   
 which indicates that <location> is a city which has a railway connection with cities <neighborlocation1>
 ... <neighbor-locationN> and hosts activities <activity1> ... <activityN> and staying
